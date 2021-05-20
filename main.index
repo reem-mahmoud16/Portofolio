@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <style>
+            body{
+                background-color: #dbcac5 ;
+                margin: 0px;
+            }
+
+           .header{
+            width: 100%;
+            height: 11vw;
+            text-align: center;
+            font-size: 1.3vw;
+            font-family: "Lucida Console", "Courier New", Monospace;
+            background-color: #707070;
+           }
+        
+           div.header h1{
+               background-color:#dbcac5  ;
+               display: inline-block;
+               width: 40%;
+               padding: 15px;
+               color: #707070;
+
+           }
+           div.header>div{
+            border-top: 5px solid #ffffff ;
+            width: 8%;
+            padding-top: 10px;
+            margin: auto;
+            color: #ffffff;
+           }
+           
+          .flex{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+          }
+          @media screen and (max-width:600px) {
+              .flex{
+                  flex-direction: column;
+                  
+              }
+              .col1{
+                  order: 2;
+                  width: 100%;
+              }
+              .col2{
+                  order: 1;
+                  width: 100%;
+
+              }
+              .col3{
+                  order: 3;
+                  width: 100%;
+
+              }
+          }
+
+          .col1 ,.col2, .col3{
+            margin: auto;
+            width: 33.33%;
+            height: 510px;
+            padding: 8px;
+          }
+
+          h3{
+              background-color: #845460;
+                width: 50%;
+            padding: 8px;
+              text-align: center;
+              color: #ffffff;
+              
+              font-family: "Lucida Console", "Courier New", Monospace;
+
+          }
+          p{
+            position:relative; 
+            left: 0;
+            line-height: 20px;
+            width: 55%;
+            word-wrap:normal;
+            text-align: justify;
+            text-indent: 15%;
+          }
+
+          .out{
+              width: 75%;
+              height: 10px;
+              border: 1px solid #845460;
+              padding: 2px;
+              margin-top: 2px;
+          }
+          .in{
+              height: 10px;
+              background-color: #845460;
+          }
+
+          div.col2>img{
+              display: block;
+              width: 50%;
+              height: 50%;
+              margin-left: auto;
+              margin-right: auto;
+              border-radius: 50%;
+              box-shadow: 0px 0px 11px black;
+          }
+          .ss{
+              position: relative;
+              left: 24%;
+              width:50%;
+              height: 30px;
+              padding: 8px;
+              line-height: 25px;
+              text-align: center;
+              border-left: 5px solid  #845460 ;
+              border-bottom: 5px solid  #845460 ;
+
+           
+          }
+          
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h1>REEM MAHMOUD</h1>
+            <div> Student </div>
+        </div>
+
+        <div class="flex">
+            <div class="col1">
+                    <h3>PROFILE</h3>
+                <p> 
+                    Personable and astute student with proven time management
+                     and collaboration skills developed from school group projects
+                      and volunteer work. 
+                </p>
+                <br> <br> 
+                <h3> TECHNICAL SKILLS </h3>
+                <div> Microsoft word </div>
+                <div class="out"> <div class="in" style="width:80%"></div> </div> <br>
+                <div> Microsoft powerpoint </div>
+                <div class="out"> <div class="in" style="width:90%"></div> </div> <br>
+                <div> Adobe illustrator </div>
+                <div class="out"> <div class="in"  style="width:70%"></div> </div> <br>
+                <div> Adobe photoshop </div>
+                <div class="out"> <div class="in"  style="width:40%"></div> </div>
+            </div>
+
+            <div class="col2">
+                <img src="pic.jpg">
+                <h3 style="margin-left: auto;margin-right: auto;"> SOFT SKILLS </h3>
+                <div style="width: 100%;position: relative;left: 10%;">  
+                    <div style="display:inline-block;width: 40%;display:inline-block;float: left;">
+                        <div class="ss"> Confidence </div> <br>
+                        <div class="ss"> Fast learner </div> <br>
+                        <div class="ss"> Teamwork </div> <br>
+                    </div>
+                    <div style="display:inline-block;width: 40%;display:inline-block;float: left;">
+                        <div class="ss"> Adaptability </div> <br>
+                        <div class="ss"> Respect </div> <br>
+                        <div class="ss"> Respect </div> <br>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col3">
+                <h3> LANGUAGES </h3>
+                <div> Arabic </div>
+                <div class="out"> <div class="in" style="width:90%"></div> </div> <br>
+                <div> English </div>
+                <div class="out"> <div class="in" style="width:60%"></div> </div> <br>
+                <div> Turkish </div>
+                <div class="out"> <div class="in" style="width:40%"></div> </div> <br>
+                
+                <h3 style="width: 100%;padding:0; padding-top: 8px; padding-bottom: 8px;"> FOR CONTACT </h3>
+                <ul style="list-style-type: none;">
+                    <li style="margin: 15px;"> 
+                        <img src="f.png" style="width: 50px;height: 50px;vertical-align: middle;"> 
+                        https://www.facebook.com/abdallh.essam.5 
+                    </li>
+                    <li style="margin: 15px;"> 
+                        <img src="g.png" style="width: 50px;height: 50px;vertical-align: middle;margin: 2px;"> 
+                        reem195398@feng.bu.edu.eg
+                    </li>
+                    <li style="margin: 15px;"> 
+                        <img src="p.png" style="width: 50px;height: 50px;vertical-align: middle;margin: 2px;border-radius: 50%;"> 
+                        22-222-222
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
